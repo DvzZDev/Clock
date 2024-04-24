@@ -16,6 +16,9 @@ This project form part of a global proyect to practice Vanilla JavaScript.
 - **Date Display**: Shows the current date in day/month/year format.
 - **Toggle Display**: Allows users to toggle the visibility of the time display.
 
-## Author
+## Technologies Used
 
-- Created by David
+- HTML
+- CSS
+- JavaScript (vanilla)
+
