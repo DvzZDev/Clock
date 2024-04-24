@@ -18,4 +18,4 @@ This project form part of a global proyect to practice Vanilla JavaScript.
 
 ## Author
 
-- Created by [David]
+- Created by David
