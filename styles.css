@@ -1,0 +1,80 @@
+:root {
+  --rose: #9b90ee;
+  --lblue: #372a79;
+  --blue: #13142a;
+}
+
+body {
+  background-color: var(--blue);
+}
+
+section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#boxMain {
+  background-color: var(--lblue);
+  height: 500px;
+  width: 1000px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 70px;
+}
+
+#box {
+  height: 450px;
+  width: 800px;
+  background-color: var(--rose);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#start {
+  background-color: var(--rose);
+  width: 70px;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Lilita One;
+  padding: 5px;
+  font-size: large;
+  justify-content: center;
+}
+
+#encendido {
+  text-align: center;
+}
+
+#box-hora {
+  color: white;
+  font-family: Lilita One;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+#hora{
+  font-size: 100px;
+}
+
+#date {
+  font-size: 40px;
+  text-align: center;
+}
+
+.lilita-one-regular {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
