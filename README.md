@@ -5,7 +5,7 @@ This project form part of a global proyect to practice Vanilla JavaScript.
 
 ## Usage
 
-1. Open `index.html` in a web browser.
+1. Open `https://dvzzdev.github.io/Clock/` in a web browser.
 2. The clock by default are off.
 3. Click the "Turn ON" button to show the time display.
 4. Click the "Turn OFF" button to hide the time display.
