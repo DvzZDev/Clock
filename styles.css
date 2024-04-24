@@ -39,33 +39,43 @@ section {
 }
 
 #start {
-  background-color: var(--rose);
-  width: 70px;
-  height: 50px;
-  border-radius: 10px;
+  justify-content: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: Lilita One;
-  padding: 5px;
-  font-size: large;
-  justify-content: center;
-  color: wheat;
 }
 
 #encendido {
   text-align: center;
+  background-color: var(--rose);
+  width: 150px;
+  height: 150px;
+  border-radius: 40px;
+  font-family: Lilita One;
+  font-size: 50px;
+  color: wheat;
+
 }
 
-#box-hora {
+#boxHora {
   color: wheat;
   font-family: Lilita One;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-items: center;
+  opacity: 0; 
+  visibility: hidden; 
+  transition: opacity 0.5s ease, visibility 0.5s ease; /
 }
-#hora{
+
+#boxHora.visible {
+  opacity: 1; 
+  visibility: visible; 
+  
+}
+
+#hora {
   font-size: 100px;
 }
 
@@ -78,4 +88,183 @@ section {
   font-family: "Lilita One", sans-serif;
   font-weight: 400;
   font-style: normal;
+  
 }
+
+.button-19:active {
+  border-width: 4px 0 0;
+  background: none;
+}
+
+@media only screen and (max-width: 1500px) {
+ 
+  section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  #boxMain {
+    background-color: var(--lblue);
+    height: 400px;
+    width: 706px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 4ch;
+  }
+  
+  #box {
+    height: 353px;
+    width: 560px;
+    background-color: var(--rose);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #start {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #encendido {
+    text-align: center;
+    background-color: var(--rose);
+    width: 110px;
+    height: 60px;
+    border-radius: 10px;
+    font-family: Lilita One;
+    font-size: 23px;
+    color: wheat;
+  
+  }
+  
+  #boxHora {
+    color: wheat;
+    font-family: Lilita One;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    opacity: 0; 
+    visibility: hidden; 
+    transition: opacity 0.5s ease, visibility 0.5s ease; /
+  }
+  
+  #boxHora.visible {
+    opacity: 1; 
+    visibility: visible; 
+    
+  }
+  
+  #hora {
+    font-size: 80px;
+  }
+  
+  #date {
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  .lilita-one-regular {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .button-19:active {
+    border-width: 4px 0 0;
+    background: none;
+  }
+  
+}
+
+@media only screen and (max-width: 750px) {
+  #boxMain {
+    background-color: var(--lblue);
+    height: 200px;
+    width: 360px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+  
+  }
+  
+  #box {
+    height: 170px;
+    width: 260px;
+    background-color: var(--rose);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #start {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #encendido {
+    text-align: center;
+    background-color: var(--rose);
+    width: 80px;
+    height: 36px;
+    border-radius: 10px;
+    font-family: Lilita One;
+    font-size: 14px;
+    color: wheat;
+  }
+  
+  #boxHora {
+    color: wheat;
+    font-family: Lilita One;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    opacity: 0; 
+    visibility: hidden; 
+    transition: opacity 0.5s ease, visibility 0.5s ease; /
+  }
+  
+  #boxHora.visible {
+    opacity: 1; 
+    visibility: visible; 
+    
+  }
+  
+  #hora {
+    font-size: 40px;
+  }
+  
+  #date {
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  .lilita-one-regular {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .button-19:active {
+    border-width: 4px 0 0;
+    background: none;
+  }
+    
+}  
