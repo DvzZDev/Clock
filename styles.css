@@ -50,6 +50,7 @@ section {
   padding: 5px;
   font-size: large;
   justify-content: center;
+  color: wheat;
 }
 
 #encendido {
@@ -57,7 +58,7 @@ section {
 }
 
 #box-hora {
-  color: white;
+  color: wheat;
   font-family: Lilita One;
   display: flex;
   flex-direction: column;
